@@ -33,6 +33,9 @@
       p {
         color: #707070;
       }
+      nav > a {
+        color: #cfcfcf;
+      }
     </style>
     <!-- daisyui cdn -->
     <link
@@ -469,9 +472,9 @@
         </div>
       </section>
       <!-- Frequently Asked Any Questions -->
-      <section>
+      <section class="mb-20">
         <!-- title bar -->
-        <div class="text-center mb-12">
+        <div class="text-center mb-10">
           <h3 class="eb-garamon-font font-extrabold text-4xl mb-5">
             Frequently Asked Any Questions
           </h3>
@@ -540,7 +543,7 @@
         </div>
       </section>
       <!-- Contact With Us -->
-      <section>
+      <section class="mb-20">
         <!-- title bar -->
         <div class="text-center mb-12">
           <h3 class="eb-garamon-font font-extrabold text-4xl mb-5">
@@ -553,7 +556,7 @@
           </p>
         </div>
         <!-- contact system -->
-        <div class="grid lg:grid-cols-2 grid-cols-1 gap-7 items-center">
+        <div class="grid lg:grid-cols-2 grid-cols-1 gap-7 items-center px-4">
           <!-- contact system 1 -->
           <div class="grid grid-cols-2">
             <div
@@ -617,14 +620,69 @@
             <input
               type="text"
               placeholder="Your Message"
-              class="input bg-[#F3F3F3] w-full"
+              class="input bg-[#F3F3F3] h-28 w-full"
             />
-            <br>
-            <input type="submit" class="input bg-[#B68C5A] w-full text-white" value="Send Message">
+            <br />
+            <input
+              type="submit"
+              class="input bg-[#B68C5A] w-full text-white"
+              value="Send Message"
+            />
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer bg-[#111111] px-20 py-20 justify-items-center items-center">
+      <nav>
+        <img src="images/logo.png" alt="" />
+        <p class="poppins-font text-[#CFCFCF]">
+          There are many variations of <br />
+          passages of Lorem Ipsum <br />
+          available, but the majority have <br />
+          suffered alteration in some <br />
+          form, by injected humour.
+        </p>
+      </nav>
+      <nav>
+        <h6 class="footer-title text-white eb-garamon-font font-bold text-lg">
+          Usefull Link
+        </h6>
+        <a class="link link-hover">Homes</a>
+        <a class="link link-hover">About Us</a>
+        <a class="link link-hover">Cases</a>
+        <a class="link link-hover">Blog</a>
+        <a class="link link-hover">Contact Us</a>
+      </nav>
+      <nav>
+        <h6 class="footer-title text-white eb-garamon-font font-bold text-lg">
+          Contact Now
+        </h6>
+        <a class="link link-hover"
+          >555 4th 5t NW, Washington <br />
+          DC 20530, United States</a
+        >
+        <a class="link link-hover"
+          >+88 01750 000 000 <br />
+          +88 01750 000 000</a
+        >
+        <a class="link link-hover">info@gmail.com <br> info@gmail.com</a>
+      </nav>
+      <form>
+        <h6 class="footer-title footer-title text-white eb-garamon-font font-bold text-lg">Subscribe</h6>
+        <fieldset class="form-control w-80">
+          <label class="label">
+            <span class="label-text poppins-font text-[#CFCFCF]">Subscribe for our latest & <br>Articles. We Won’t Give You <br> Spam Mails</span>
+          </label>
+          <div class="join">
+            <input
+              type="email"
+              placeholder="Email Address"
+              class="input input-bordered join-item"
+            />
+            <button class="btn btn-primary border-none bg-[#B68C5A] join-item">Send</button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
   </body>
 </html>
